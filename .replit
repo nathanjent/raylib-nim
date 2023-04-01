@@ -1,0 +1,6 @@
+compile = "nimble -l -y build --define:release --gc:orc main"
+run = "nimble -l -y run main"
+
+hidden = ["main", ".git*", "nimbledeps"]
+
+entrypoint = "src/main.nim"
